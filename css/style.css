@@ -1,0 +1,435 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.imgHeader{
+    width: 50vw;
+    position:absolute;
+    opacity: 70%;
+
+}
+
+.principalHeader{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items:center;
+}
+
+.titulo{
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+    margin-bottom:1rem;
+    text-align:center;
+}
+
+.subtitulo{
+    margin-bottom:2rem;
+    text-align:center;
+}
+.nosCasamos{
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    text-align:center;
+}
+
+.fototravel{
+    height: 70vh;
+    background-image: url("/images/background.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.cronograma{
+    font-family: 'Dancing Script', cursive;
+    color: #273e47;
+    font-size: 3rem;
+    margin-bottom:2rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:1rem;
+}
+
+
+.tituloCard{
+    font-family: 'Parisienne', cursive;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items:center;
+    padding:2rem;
+    margin:1rem;
+    border: solid;
+    border-color: #22c78a1f;
+    min-width: 15rem;
+    height: 21rem;
+}
+.card:hover{
+    
+    border-color: #22c78adf;
+    
+}
+
+
+.icons{
+    height:5rem;
+    
+}
+
+.cardh2{
+    margin-bottom:1rem;
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.cardText{
+    margin-top:1rem;
+    text-align: center;
+}
+
+.destacado{
+    font-weight: bolder;
+}
+
+.cardButton{
+    color: white;
+    background:linear-gradient(186deg, rgb(53, 216, 205) 0%, rgb(71, 218, 191) 100%);
+    padding:1rem;
+    margin-top:2rem;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+
+}
+
+.cardButton:hover{
+    background:linear-gradient(186deg, rgb(45, 74, 118) 0%, rgb(19, 84, 130) 100%);
+}
+
+.fototravel2{
+    height: 70vh;
+    background-image: url("/images/travel2.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgArticleRegalo{
+    height: 500px;
+}
+
+.regalo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.bloqueRegalo{
+    width: 30%;
+    text-align: center;
+    margin-left:1rem;
+}
+.regaloh2{
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+    margin-bottom:2rem;
+    text-align: center;
+}
+
+.textRegalo1{
+    font-family: 'Rubik', sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.textRegalo2{
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    margin-top:2rem;
+    text-align: center;
+    
+}
+
+.fototravel3{
+    height: 70vh;
+    background-image: url("/images/travel5.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hospedaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    justify-content: center;
+}
+
+.hospedajeh2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
+
+.texthospedaje{
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    margin-top:1rem;  
+    margin-bottom: 2rem; 
+    text-align: center;
+
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items:center;
+    padding:2rem;
+    margin:1rem;
+    border: solid;
+    border-color: #b6b8b81f;
+    min-width: 15rem;
+    height: 10rem;
+    margin-bottom:1rem;
+}
+.card2:hover{
+    
+    background-color: #dcdcdc4e;
+    
+}
+
+.phospedaje{
+    padding-top:1rem;
+}
+
+
+.fototravel4{
+    height: 70vh;
+    background-image: url("/images/travel4.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fototravel5{
+    height: 70vh;
+    background-image: url("/images/travel6.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:960px) {
+
+    .regalo{
+       flex-direction: column;
+    }
+    .imgArticleRegalo{
+        height: 80vw;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .bloqueRegalo{
+        width: 90%;
+        margin-bottom:2rem;
+    }
+
+    .card{
+        margin:none;
+    }
+
+    .imgHeader{
+        width:80vw;
+    }
+
+    .subtitulo{
+        font-size: 1rem;
+    }
+
+    .cardh2{
+        font-size: 1.8rem;
+    }
+    .regaloh2{
+        font-size: 2.2rem;
+    }
+
+    .textRegalo1{
+        font-size: 1.1rem;
+    }
+
+    .textRegalo2{
+        font-size: 1rem;
+    }
+    .card2{
+        margin:none;
+        border-color: #94eaea8b;
+    }
+    .hospedajeh2{
+       font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:667px) {
+    .titulo {
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 10rem;
+    }
+    .imgHeader{
+        width:100vw;
+    }
+    .cronograma{
+        margin-top: 3rem;
+    }
+    .hospedaje{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .fototravel{
+        background-image: url("/images/background2.jpg");
+    }
+    .fototravel2{ 
+        background-image: url("/images/travel22.jpg");
+    }
+    .fototravel3{
+        background-image: url("/images/travel55.jpg");
+    }
+    .fototravel4{
+        background-image: url("/images/travel44.jpg");
+    }
+    .fototravel5{
+        background-image: url("/images/travel66.jpg");
+    }
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+    background:linear-gradient(186deg, rgb(53, 216, 205) 0%, rgb(71, 218, 191) 100%);
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top:1rem;
+    /* Icon */
+  }
+  .tab-label:hover {
+    color: white;
+    background:linear-gradient(186deg, rgb(53, 216, 205) 0%, rgb(71, 218, 191) 100%);
+  }
+  .tab-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    background: white;
+    transition: all 0.35s;
+  }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    color: white;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .tab-close:hover {
+    color: white;
+    background:linear-gradient(186deg, rgb(53, 216, 205) 0%, rgb(71, 218, 191) 100%);
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+  }
+  
+  input:checked + .tab-label {
+    color: white;
+    background:linear-gradient(186deg, rgb(53, 216, 205) 0%, rgb(71, 218, 191) 100%);
+  }
+  input:checked + .tab-label::after {
+    transform: rotate(90deg);
+  }
+  input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
