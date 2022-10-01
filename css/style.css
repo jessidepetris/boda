@@ -39,7 +39,7 @@
 
 .fototravel{
     height: 70vh;
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@
 
 .fototravel2{
     height: 70vh;
-    background-image: url("/images/travel2.jpg");
+    background-image: url("../images/travel2.jpg");
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@
 
 .fototravel3{
     height: 70vh;
-    background-image: url("/images/travel5.jpg");
+    background-image: url("../images/travel5.jpg");
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@
 
 .fototravel4{
     height: 70vh;
-    background-image: url("/images/travel4.jpg");
+    background-image: url("../images/travel4.jpg");
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@
 
 .fototravel5{
     height: 70vh;
-    background-image: url("/images/travel6.jpg");
+    background-image: url("../images/travel6.jpg");
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -341,19 +341,19 @@
 
 @media screen and (max-width:600px) {
     .fototravel{
-        background-image: url("/images/background2.jpg");
+        background-image: url("../images/background2.jpg");
     }
     .fototravel2{ 
-        background-image: url("/images/travel22.jpg");
+        background-image: url("../images/travel22.jpg");
     }
     .fototravel3{
-        background-image: url("/images/travel55.jpg");
+        background-image: url("../images/travel55.jpg");
     }
     .fototravel4{
-        background-image: url("/images/travel44.jpg");
+        background-image: url("../images/travel44.jpg");
     }
     .fototravel5{
-        background-image: url("/images/travel66.jpg");
+        background-image: url("../images/travel66.jpg");
     }
 }
 
